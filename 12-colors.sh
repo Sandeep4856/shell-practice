@@ -38,4 +38,4 @@ VALIDATE $? "installing GIT"
 
 
 dnf install dockerr -y &>>$LOGFILE
-VALIDATE $? "installing GIT" 
+VALIDATE $? "installing docker" 
