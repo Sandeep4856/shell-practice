@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo " Hello Iam learing devops with AWS "
+echo "Iam learing devops with AWS and this is my first shell script"
