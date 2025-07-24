@@ -5,4 +5,8 @@ NO2=$2
 
 SUM=$(($NO1+$NO2))
 
-echo " sum of 2 digits is $SUM "
+echo " sum of $NO1 and $NO2 digits is:  $SUM "
+
+
+
+
