@@ -37,5 +37,5 @@ VALIDATE $? "installing GIT"
 # $? is considered as $1 -->  1st variable  || "installing git" is considered as $2 -->  2nd  variable
 
 
-dnf install dockerr -y &>>$LOGFILE
+dnf install docker -y &>>$LOGFILE
 VALIDATE $? "installing docker" 
