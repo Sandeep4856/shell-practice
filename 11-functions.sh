@@ -11,7 +11,7 @@ else
 fi
 
 
-VALIDATE(){
+VALIDATE() {
     if [ $1 -ne 0 ]
     then
         echo "$2.....FAILURE"
@@ -26,5 +26,5 @@ VALIDATE $? "installing MYSQL"
 
 
 dnf install git -y
-VALIDATE $? "installing GITL" 
+VALIDATE $? "installing GIT" 
 # $? is considered as $1 -->  1st variable  || "installing git" is considered as $2 -->  2nd  variable
