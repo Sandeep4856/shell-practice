@@ -2,7 +2,7 @@
 
 NO=$1
  
-if [ $NO is -gt 10 ]
+if [ $NO  -gt 10 ]
 then
     echo "Given no $NO is greater than 10"
 else
